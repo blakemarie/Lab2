@@ -1,65 +1,55 @@
-body{
-    /* background-color: pink; */
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-h1{
-    filter: drop-shadow(2px 2px) blur(1px);
-    color: #0f6a9e;
-}
-p{
-    font-size: 20px;
-}
-ul{
-    font-size: 20px;}
-ol{
-    font-size: 20px;
-}
-img{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 1px rgb(0, 58, 66, .5);
 
-}
-footer{
-    text-align: center;
-}
+
+
 * {
     /* border: 1px solid red; */
   }
   
+  /* by using body, h1, p, ul, ol, img, footer this applies the CSS code to anywhere that is metioned in the HTML code */
   /* ---ELEMENT SELECTORS--- */
   
   html {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(250deg, #84daf5, #89ffff, #affffa, #ffffff);
   }
-  body {
+  body { margin: (1rem 1rem 5rem 5rem);
   }
   
   h1 {
     text-align: center;
+    filter: drop-shadow(2px 2px) blur(1px);
+    color: #0f6a9e;
   }
   h2 {
     margin: 4rem auto 1rem auto;
     text-align: center;
-  }
-  p,
+    }
+  p{
+        font-size: 20px;
+    }
+  
   li {
-  }
+ 
+  ul { 
+    font-size: 20px;
+    }
+  
   ol {
     padding: 20px;
+    font-size: 20px;
   }
-  
+}
+
   ol li {
     padding: 10px 0;
   }
   img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(0, 58, 66, .5);
   }
   figcaption {
     text-align: center;
@@ -67,9 +57,11 @@ footer{
   }
   footer {
     margin: 2rem 0 2rem 0;
+    text-align: center;
   }
   
   /* ---CUSTOM CLASS NAME SELECTORS--- */
+  /* with custome class names, they're more specific to each assigned class or ID */
   
   .banner-div {
     display: flex;
